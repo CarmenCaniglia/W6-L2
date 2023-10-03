@@ -39,16 +39,16 @@
                 <a class="nav-link active" aria-current="page" href="#">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Saldi</a>
+                <a class="nav-link" href="#saldi">Saldi</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Welcome Summer</a>
+                <a class="nav-link" href="#offerta">Welcome Summer</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Last Minute</a>
+                <a class="nav-link" href="#last">Last Minute</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Recensioni</a>
+                <a class="nav-link" href="#recensioni">Recensioni</a>
               </li>
             </ul>
             <form class="d-flex" role="search">
@@ -72,16 +72,19 @@
       <div class="container">
         <div class="row">
           <div class="col">
-            <div class="card">
-              <div class="card-header">
-                Eveline-R <span class="">- Feel the Freedom</span>
+            <div class="card border-0 bg-body-tertiary">
+              <div class="card-header fs-1 fst-italic text-secondary">
+                Eveline-R
+                <span class="fs-6 fst-italic text-secondary"
+                  >- Feel the Freedom</span
+                >
               </div>
               <div class="card-body">
-                <h5 class="card-title">
+                <h5 class="card-title fw-normal fs-5 fst-italic text-secondary">
                   Scopri le destinazioni più calde del momento!
                 </h5>
 
-                <a href="#" class="btn btn-primary">Prenota ora</a>
+                <a href="#" class="btn btn-info mt-3">Prenota ora</a>
               </div>
             </div>
           </div>
@@ -92,7 +95,7 @@
       <!-- INIZIO SEZIONE SALDI -->
       <div class="container mt-3">
         <div class="row">
-          <h4>Saldi</h4>
+          <h4 id="saldi">Saldi</h4>
         </div>
         <div class="row g-3">
           <div class="col col-6 col-md-4 col-lg-3 d-md-none d-lg-block">
@@ -168,9 +171,9 @@
       <!-- FINE SEZIONE SALDI -->
       <!-- INIZIO WLCOME SUMMER -->
       <div class="container">
-        <div class="row">
-          <h4>Welcome Summer</h4>
-          <div class="row g-3">
+        <div class="row mt-3 mb-0">
+          <h4 id="Welcome" class="mb-0">Welcome Summer</h4>
+          <div class="row mt-0 g-3">
             <div class="col col-6 col-md-6 col-lg-4 col-xl-2">
               <div class="card shadow-lg p-3 mb-5 bg-body-tertiary rounded">
                 <img
@@ -280,7 +283,7 @@
       <!-- OFFERTA DEL GIORNO -->
       <div class="container d-none d-md-block">
         <div class="row mt-3">
-          <h4>Offerta del giorno</h4>
+          <h4 id="offerta">Offerta del giorno</h4>
           <div class="row">
             <div class="card mb-3 border-0">
               <div class="row g-0">
@@ -312,53 +315,94 @@
         </div>
       </div>
       <!-- FINE OFFERTA DEL GIORNO -->
+      <!-- LAST MINUTE -->
       <div class="container">
         <div class="row">
-          <div class="col-4 col-lg-2 g-2 shadow p-3 mb-5 bg-white rounded">
-            <img
-              src="https://picsum.photos/id/10/700/500"
-              class="img-fluid rounded"
-              alt="nature pic"
-            />
-          </div>
-          <div class="col-4 col-lg-2 g-2 shadow p-3 mb-5 bg-white rounded">
-            <img
-              src="https://picsum.photos/id/10/700/500"
-              class="img-fluid rounded"
-              alt="nature pic"
-            />
-          </div>
-          <div class="col-4 col-lg-2 g-2 shadow p-3 mb-5 bg-white rounded">
-            <img
-              src="https://picsum.photos/id/10/700/500"
-              class="img-fluid rounded"
-              alt="nature pic"
-            />
-          </div>
-          <div class="col-4 col-lg-2 g-2 shadow p-3 mb-5 bg-white rounded">
-            <img
-              src="https://picsum.photos/id/10/700/500"
-              class="img-fluid rounded"
-              alt="nature pic"
-            />
-          </div>
-          <div class="col-4 col-lg-2 g-2 shadow p-3 mb-5 bg-white rounded">
-            <img
-              src="https://picsum.photos/id/10/700/500"
-              class="img-fluid rounded"
-              alt="nature pic"
-            />
-          </div>
-          <div class="col-4 col-lg-2 g-2 shadow p-3 mb-5 bg-white rounded">
-            <img
-              src="https://picsum.photos/id/10/700/500"
-              class="img-fluid rounded"
-              alt="nature pic"
-            />
+          <h5 id="last">Last Minute</h5>
+          <div class="row">
+            <div class="col-4 col-lg-2 g-2 shadow p-3 mb-5 bg-white rounded">
+              <img
+                src="https://picsum.photos/id/10/700/500"
+                class="img-fluid rounded"
+                alt="nature pic"
+              />
+            </div>
+            <div class="col-4 col-lg-2 g-2 shadow p-3 mb-5 bg-white rounded">
+              <img
+                src="https://picsum.photos/id/10/700/500"
+                class="img-fluid rounded"
+                alt="nature pic"
+              />
+            </div>
+            <div class="col-4 col-lg-2 g-2 shadow p-3 mb-5 bg-white rounded">
+              <img
+                src="https://picsum.photos/id/10/700/500"
+                class="img-fluid rounded"
+                alt="nature pic"
+              />
+            </div>
+            <div class="col-4 col-lg-2 g-2 shadow p-3 mb-5 bg-white rounded">
+              <img
+                src="https://picsum.photos/id/10/700/500"
+                class="img-fluid rounded"
+                alt="nature pic"
+              />
+            </div>
+            <div class="col-4 col-lg-2 g-2 shadow p-3 mb-5 bg-white rounded">
+              <img
+                src="https://picsum.photos/id/10/700/500"
+                class="img-fluid rounded"
+                alt="nature pic"
+              />
+            </div>
+            <div class="col-4 col-lg-2 g-2 shadow p-3 mb-5 bg-white rounded">
+              <img
+                src="https://picsum.photos/id/10/700/500"
+                class="img-fluid rounded"
+                alt="nature pic"
+              />
+            </div>
           </div>
         </div>
       </div>
-      <!-- LAST MINUTE -->
+      <!--FIME LAST MINUTE -->
+      <!-- RECENSIONI -->
+      <div class="container">
+        <div class="row">
+          <h5 id="recensioni">Dicono di noi</h5>
+        </div>
+        <div class="row">
+          <div class="col">
+            <div class="card mb-3" style="max-width: 540px">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img
+                    src="https://placehold.jp/40x40.png"
+                    class="img-fluid rounded-circle border border-info"
+                    alt="..."
+                  />
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">
+                      This is a wider card with supporting text below as a
+                      natural lead-in to additional content. This content is a
+                      little bit longer.
+                    </p>
+                    <p class="card-text">
+                      <small class="text-body-secondary"
+                        >Last updated 3 mins ago</small
+                      >
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- FINE RECENSIONI -->
     </main>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
